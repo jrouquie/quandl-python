@@ -13,7 +13,7 @@ data = Quandl.get('PRAGUESE/PX', authtoken='xxxxxx', trim_start='2001-01-01',
                   transformation='rdiff', rows=4, returns='numpy')
 ```
 
-All options beyond specifying the dataset (PRAUGESE/PX) are optional,though it is helpful to specify an authtoken at 
+All options beyond specifying the dataset (PRAGUESE/PX) are optional, though it is helpful to specify an authtoken at 
 least once to increase download limits.
 
 You can then view the dataframe with `data.head()`.
